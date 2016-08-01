@@ -1,0 +1,5 @@
+.subckt 8-1selor H G F E D C B gnd A vdd out
+XX8 N001 N002 gnd vdd out mynor2
+XX5 A B C D gnd vdd N001 mynand4
+XX15 E F G H gnd vdd N002 mynand4
+.ends 8-1selor

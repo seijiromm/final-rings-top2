@@ -1,0 +1,883 @@
+** Net name table **
+*$ 64div.gex/Gnd	0
+*$ 64div.gex/dff_v2.gex/Gnd	0
+*$ 8-1seldec.gex/Gnd	0
+*$ 8-1seldec.gex/inv1_v2.gex/Gnd	0
+*$ 8-1seldec.gex/nand3_v2.gex/Gnd	0
+*$ 8-1selor.gex/Gnd	0
+*$ 8-1selor.gex/nand4_v2.gex/Gnd	0
+*$ 8-1selor.gex/nor2_v2.gex/Gnd	0
+*$ Gnd	0
+*$ er2_sw.gex/Gnd	0
+*$ er2_sw.gex/erunit.gex/inv1_v2.gex/Gnd	0
+*$ er2_sw.gex/erunit.gex/inv1_v2_special.gex/Gnd	0
+*$ er2_sw.gex/erunit_sw.gex/Gnd	0
+*$ er2_sw.gex/erunit_sw.gex/inv1_v2.gex/Gnd	0
+*$ er2_sw.gex/erunit_sw.gex/inv1_v2_special.gex/Gnd	0
+*$ er2_sw.gex/erunit_sw.gex/nand2_v2.gex/Gnd	0
+*$ er4_sw.gex/Gnd	0
+*$ er4_sw.gex/erunit.gex/inv1_v2.gex/Gnd	0
+*$ er4_sw.gex/erunit.gex/inv1_v2_special.gex/Gnd	0
+*$ er4_sw.gex/erunit_sw.gex/Gnd	0
+*$ er4_sw.gex/erunit_sw.gex/inv1_v2.gex/Gnd	0
+*$ er4_sw.gex/erunit_sw.gex/inv1_v2_special.gex/Gnd	0
+*$ er4_sw.gex/erunit_sw.gex/nand2_v2.gex/Gnd	0
+*$ er6_sw.gex/Gnd	0
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/Gnd	0
+*$ er6_sw.gex/erunit.gex/inv1_v2_special.gex/Gnd	0
+*$ er6_sw.gex/erunit_sw.gex/Gnd	0
+*$ er6_sw.gex/erunit_sw.gex/inv1_v2.gex/Gnd	0
+*$ er6_sw.gex/erunit_sw.gex/inv1_v2_special.gex/Gnd	0
+*$ er6_sw.gex/erunit_sw.gex/nand2_v2.gex/Gnd	0
+*$ ring7.gex/Gnd	0
+*$ ring7.gex/inv1_v2.gex/Gnd	0
+*$ ring7.gex/inv1_v2_psw.gex/Gnd	0
+*$ ring7L2W14p22.gex/Gnd	0
+*$ ring7L2W14p22.gex/inv1L2W14p22.gex/Gnd	0
+*$ ring7L2W14p22.gex/inv1L2W14p22_psw.gex/Gnd	0
+*$ ring7L4.gex/Gnd	0
+*$ ring7L4.gex/inv1L4.gex/Gnd	0
+*$ ring7L4.gex/inv1L4_psw.gex/Gnd	0
+*$ ring7L4.gex/inv1_v2.gex/Gnd	0
+*$ ring7_nand.gex/Gnd	0
+*$ ring7_nand.gex/inv1_v2.gex/Gnd	0
+*$ ring7_nand.gex/nand2_v2.gex/Gnd	0
+*$ ring7_nor.gex/Gnd	0
+*$ ring7_nor.gex/inv1_v2.gex/Gnd	0
+*$ ring7_nor.gex/nor2_v2.gex/Gnd	0
+*$ VDD	1
+*$ 64div.gex/Vdd	1
+*$ 64div.gex/dff_v2.gex/Vdd	1
+*$ 8-1seldec.gex/Vdd	1
+*$ 8-1seldec.gex/inv1_v2.gex/Vdd	1
+*$ 8-1seldec.gex/nand3_v2.gex/Vdd	1
+*$ 8-1selor.gex/Vdd	1
+*$ 8-1selor.gex/nand4_v2.gex/Vdd	1
+*$ 8-1selor.gex/nor2_v2.gex/Vdd	1
+*$ Vdd	1
+*$ er2_sw.gex/Vdd	1
+*$ er2_sw.gex/erunit.gex/inv1_v2.gex/Vdd	1
+*$ er2_sw.gex/erunit.gex/inv1_v2_special.gex/Vdd	1
+*$ er2_sw.gex/erunit_sw.gex/Vdd	1
+*$ er2_sw.gex/erunit_sw.gex/inv1_v2.gex/Vdd	1
+*$ er2_sw.gex/erunit_sw.gex/inv1_v2_special.gex/Vdd	1
+*$ er2_sw.gex/erunit_sw.gex/nand2_v2.gex/Vdd	1
+*$ er4_sw.gex/Vdd	1
+*$ er4_sw.gex/erunit.gex/inv1_v2.gex/Vdd	1
+*$ er4_sw.gex/erunit.gex/inv1_v2_special.gex/Vdd	1
+*$ er4_sw.gex/erunit_sw.gex/Vdd	1
+*$ er4_sw.gex/erunit_sw.gex/inv1_v2.gex/Vdd	1
+*$ er4_sw.gex/erunit_sw.gex/inv1_v2_special.gex/Vdd	1
+*$ er4_sw.gex/erunit_sw.gex/nand2_v2.gex/Vdd	1
+*$ er6_sw.gex/Vdd	1
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/Vdd	1
+*$ er6_sw.gex/erunit.gex/inv1_v2_special.gex/Vdd	1
+*$ er6_sw.gex/erunit_sw.gex/Vdd	1
+*$ er6_sw.gex/erunit_sw.gex/inv1_v2.gex/Vdd	1
+*$ er6_sw.gex/erunit_sw.gex/inv1_v2_special.gex/Vdd	1
+*$ er6_sw.gex/erunit_sw.gex/nand2_v2.gex/Vdd	1
+*$ ring7.gex/Vdd	1
+*$ ring7.gex/inv1_v2.gex/Vdd	1
+*$ ring7.gex/inv1_v2_psw.gex/Vdd	1
+*$ ring7L2W14p22.gex/Vdd	1
+*$ ring7L2W14p22.gex/inv1L2W14p22.gex/Vdd	1
+*$ ring7L2W14p22.gex/inv1L2W14p22_psw.gex/Vdd	1
+*$ ring7L4.gex/Vdd	1
+*$ ring7L4.gex/inv1L4.gex/Vdd	1
+*$ ring7L4.gex/inv1L4_psw.gex/Vdd	1
+*$ ring7L4.gex/inv1_v2.gex/Vdd	1
+*$ ring7_nand.gex/Vdd	1
+*$ ring7_nand.gex/inv1_v2.gex/Vdd	1
+*$ ring7_nand.gex/nand2_v2.gex/Vdd	1
+*$ ring7_nor.gex/Vdd	1
+*$ ring7_nor.gex/inv1_v2.gex/Vdd	1
+*$ ring7_nor.gex/nor2_v2.gex/Vdd	1
+*$ er2_sw.gex/vdd_er2	1
+*$ 8-1selor.gex/nand4_v2.gex/C	2
+*$ 8-1selor.gex/G	2
+*$ ring7L2W14p22.gex/OUT	2
+*$ ring7L2W14p22.gex/inv1L2W14p22.gex/Y	2
+*$ s7	2
+*$ ring7L2W14p22.gex/inv1L2W14p22.gex/A	3
+*$ ring7L2W14p22.gex/inv1L2W14p22_psw.gex/Y	3
+*$ ring7L2W14p22.gex/inv1L2W14p22_psw.gex/A	4
+*$ ring7L2W14p22.gex/inv1L2W14p22.gex/Y	4
+*$ ring7L2W14p22.gex/inv1L2W14p22.gex/A	5
+*$ ring7L2W14p22.gex/inv1L2W14p22.gex/Y	5
+*$ ring7L2W14p22.gex/inv1L2W14p22.gex/A	6
+*$ ring7L2W14p22.gex/inv1L2W14p22.gex/Y	6
+*$ ring7L2W14p22.gex/inv1L2W14p22.gex/A	7
+*$ ring7L2W14p22.gex/inv1L2W14p22.gex/Y	7
+*$ ring7L2W14p22.gex/inv1L2W14p22.gex/A	8
+*$ ring7L2W14p22.gex/inv1L2W14p22.gex/Y	8
+*$ ring7L2W14p22.gex/inv1L2W14p22.gex/A	9
+*$ ring7L2W14p22.gex/inv1L2W14p22.gex/Y	9
+*$ 8-1seldec.gex/D	10
+*$ ring7L2W14p22.gex/SW	10
+*$ 8-1seldec.gex/nand3_v2.gex/Y	10
+*$ dec4	10
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/A	11
+*$ er6_sw.gex/erunit.gex/inv1_v2_special.gex/A	11
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/Y	11
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/A	12
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/Y	12
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/A	13
+*$ er6_sw.gex/erunit_sw.gex/inv1_v2_special.gex/Y	13
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/A	14
+*$ er6_sw.gex/erunit_sw.gex/inv1_v2.gex/Y	14
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/A	15
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/Y	15
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/A	16
+*$ er6_sw.gex/erunit.gex/inv1_v2_special.gex/Y	16
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/A	17
+*$ er6_sw.gex/erunit.gex/inv1_v2_special.gex/A	17
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/Y	17
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/A	18
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/Y	18
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/A	19
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/Y	19
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/A	20
+*$ er6_sw.gex/erunit.gex/inv1_v2_special.gex/Y	20
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/A	21
+*$ er6_sw.gex/erunit.gex/inv1_v2_special.gex/A	21
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/Y	21
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/A	22
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/Y	22
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/A	23
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/Y	23
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/A	24
+*$ er6_sw.gex/erunit.gex/inv1_v2_special.gex/Y	24
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/A	25
+*$ er6_sw.gex/erunit.gex/inv1_v2_special.gex/A	25
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/Y	25
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/A	26
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/Y	26
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/A	27
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/Y	27
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/A	28
+*$ er6_sw.gex/erunit.gex/inv1_v2_special.gex/Y	28
+*$ er6_sw.gex/erunit_sw.gex/inv1_v2.gex/A	29
+*$ er6_sw.gex/erunit_sw.gex/inv1_v2_special.gex/A	29
+*$ er6_sw.gex/erunit_sw.gex/inv1_v2.gex/Y	29
+*$ 8-1selor.gex/A	30
+*$ 8-1selor.gex/nand4_v2.gex/A	30
+*$ er6_sw.gex/erunit_sw.gex/inv1_v2.gex/A	30
+*$ er6_sw.gex/OUT	30
+*$ er6_sw.gex/erunit_sw.gex/inv1_v2.gex/Y	30
+*$ er6_sw.gex/erunit_sw.gex/nand2_v2.gex/Y	30
+*$ s1	30
+*$ er6_sw.gex/erunit_sw.gex/inv1_v2.gex/A	31
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/Y	31
+*$ er6_sw.gex/erunit_sw.gex/nand2_v2.gex/B	32
+*$ er6_sw.gex/erunit.gex/inv1_v2_special.gex/Y	32
+*$ er6_sw.gex/erunit_sw.gex/nand2_v2.gex/A	33
+*$ er6_sw.gex/erunit_sw.gex/Y	33
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/A	34
+*$ er6_sw.gex/erunit.gex/inv1_v2_special.gex/A	34
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/Y	34
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/A	35
+*$ er6_sw.gex/erunit.gex/inv1_v2.gex/Y	35
+*$ 8-1seldec.gex/nand3_v2.gex/C	36
+*$ 8-1seldec.gex/inv1_v2.gex/Y	36
+*$ 8-1seldec.gex/Z+	36
+*$ 8-1seldec.gex/E	37
+*$ ring7L4.gex/SW	37
+*$ 8-1seldec.gex/nand3_v2.gex/Y	37
+*$ dec5	37
+*$ 8-1seldec.gex/nand3_v2.gex/B	38
+*$ 8-1seldec.gex/inv1_v2.gex/Y	38
+*$ 8-1seldec.gex/Y+	38
+*$ 8-1seldec.gex/inv1_v2.gex/A	39
+*$ 8-1seldec.gex/nand3_v2.gex/A	39
+*$ 8-1seldec.gex/inv1_v2.gex/Y	39
+*$ 8-1seldec.gex/inv1_v2.gex/A	40
+*$ 8-1seldec.gex/nand3_v2.gex/C	40
+*$ 8-1seldec.gex/inv1_v2.gex/Y	40
+*$ 8-1seldec.gex/Z-	40
+*$ 8-1seldec.gex/inv1_v2.gex/A	41
+*$ 8-1seldec.gex/Z	41
+*$ z	41
+*$ 8-1seldec.gex/nand3_v2.gex/A	42
+*$ 8-1seldec.gex/X+	42
+*$ 8-1seldec.gex/inv1_v2.gex/Y	42
+*$ 8-1seldec.gex/inv1_v2.gex/A	43
+*$ 8-1seldec.gex/X	43
+*$ x	43
+*$ 8-1seldec.gex/inv1_v2.gex/A	44
+*$ 8-1seldec.gex/nand3_v2.gex/B	44
+*$ 8-1seldec.gex/inv1_v2.gex/Y	44
+*$ 8-1seldec.gex/Y-	44
+*$ 8-1seldec.gex/inv1_v2.gex/A	45
+*$ 8-1seldec.gex/Y	45
+*$ y	45
+*$ 8-1seldec.gex/C	46
+*$ er6_sw.gex/SW	46
+*$ 8-1seldec.gex/nand3_v2.gex/Y	46
+*$ dec3	46
+*$ 8-1seldec.gex/B	47
+*$ er4_sw.gex/SW	47
+*$ 8-1seldec.gex/nand3_v2.gex/Y	47
+*$ dec2	47
+*$ 8-1seldec.gex/A	48
+*$ er2_sw.gex/SW	48
+*$ 8-1seldec.gex/nand3_v2.gex/Y	48
+*$ dec1	48
+*$ 8-1seldec.gex/F	49
+*$ ring7.gex/SW	49
+*$ 8-1seldec.gex/nand3_v2.gex/Y	49
+*$ dec6	49
+*$ ring7_nor.gex/nor2_v2.gex/A	50
+*$ 8-1seldec.gex/G	50
+*$ ring7_nor.gex/SW	50
+*$ 8-1seldec.gex/nand3_v2.gex/Y	50
+*$ dec7	50
+*$ ring7_nand.gex/inv1_v2.gex/A	51
+*$ 8-1seldec.gex/H	51
+*$ ring7_nand.gex/SW	51
+*$ 8-1seldec.gex/nand3_v2.gex/Y	51
+*$ dec8	51
+*$ er2_sw.gex/erunit_sw.gex/inv1_v2.gex/A	52
+*$ er2_sw.gex/erunit_sw.gex/inv1_v2_special.gex/A	52
+*$ er2_sw.gex/erunit_sw.gex/inv1_v2.gex/Y	52
+*$ er2_sw.gex/erunit_sw.gex/inv1_v2.gex/A	53
+*$ 8-1selor.gex/C	53
+*$ 8-1selor.gex/nand4_v2.gex/C	53
+*$ er2_sw.gex/OUT	53
+*$ er2_sw.gex/erunit_sw.gex/inv1_v2.gex/Y	53
+*$ er2_sw.gex/erunit_sw.gex/nand2_v2.gex/Y	53
+*$ s3	53
+*$ er2_sw.gex/erunit_sw.gex/inv1_v2.gex/A	54
+*$ er2_sw.gex/erunit.gex/inv1_v2.gex/Y	54
+*$ er2_sw.gex/erunit.gex/inv1_v2.gex/A	55
+*$ er2_sw.gex/erunit_sw.gex/inv1_v2.gex/Y	55
+*$ er2_sw.gex/erunit.gex/inv1_v2.gex/A	56
+*$ er2_sw.gex/erunit_sw.gex/inv1_v2_special.gex/Y	56
+*$ er2_sw.gex/erunit_sw.gex/nand2_v2.gex/B	57
+*$ er2_sw.gex/erunit.gex/inv1_v2_special.gex/Y	57
+*$ er2_sw.gex/erunit_sw.gex/nand2_v2.gex/A	58
+*$ er2_sw.gex/erunit_sw.gex/Y	58
+*$ er2_sw.gex/erunit.gex/inv1_v2.gex/A	59
+*$ er2_sw.gex/erunit.gex/inv1_v2_special.gex/A	59
+*$ er2_sw.gex/erunit.gex/inv1_v2.gex/Y	59
+*$ er2_sw.gex/erunit.gex/inv1_v2.gex/A	60
+*$ er2_sw.gex/erunit.gex/inv1_v2.gex/Y	60
+*$ ring7.gex/inv1_v2_psw.gex/A	61
+*$ ring7.gex/inv1_v2.gex/Y	61
+*$ ring7.gex/inv1_v2.gex/A	62
+*$ ring7.gex/inv1_v2.gex/Y	62
+*$ ring7.gex/inv1_v2.gex/A	63
+*$ ring7.gex/inv1_v2.gex/Y	63
+*$ ring7.gex/inv1_v2.gex/A	64
+*$ ring7.gex/inv1_v2.gex/Y	64
+*$ ring7.gex/inv1_v2.gex/A	65
+*$ ring7.gex/inv1_v2.gex/Y	65
+*$ ring7.gex/inv1_v2.gex/A	66
+*$ ring7.gex/inv1_v2.gex/Y	66
+*$ ring7.gex/inv1_v2.gex/A	67
+*$ ring7.gex/inv1_v2_psw.gex/Y	67
+*$ 8-1selor.gex/nand4_v2.gex/B	68
+*$ 8-1selor.gex/F	68
+*$ ring7.gex/OUT	68
+*$ ring7.gex/inv1_v2.gex/Y	68
+*$ s6	68
+*$ er4_sw.gex/erunit.gex/inv1_v2.gex/A	69
+*$ er4_sw.gex/erunit.gex/inv1_v2_special.gex/A	69
+*$ er4_sw.gex/erunit.gex/inv1_v2.gex/Y	69
+*$ er4_sw.gex/erunit.gex/inv1_v2.gex/A	70
+*$ er4_sw.gex/erunit.gex/inv1_v2.gex/Y	70
+*$ er4_sw.gex/erunit.gex/inv1_v2.gex/A	71
+*$ er4_sw.gex/erunit.gex/inv1_v2_special.gex/Y	71
+*$ er4_sw.gex/erunit.gex/inv1_v2.gex/A	72
+*$ er4_sw.gex/erunit.gex/inv1_v2.gex/Y	72
+*$ er4_sw.gex/erunit_sw.gex/inv1_v2.gex/A	73
+*$ er4_sw.gex/erunit.gex/inv1_v2.gex/Y	73
+*$ er4_sw.gex/erunit_sw.gex/nand2_v2.gex/B	74
+*$ er4_sw.gex/erunit.gex/inv1_v2_special.gex/Y	74
+*$ er4_sw.gex/erunit_sw.gex/inv1_v2.gex/A	75
+*$ er4_sw.gex/erunit_sw.gex/inv1_v2_special.gex/A	75
+*$ er4_sw.gex/erunit_sw.gex/inv1_v2.gex/Y	75
+*$ er4_sw.gex/erunit_sw.gex/inv1_v2.gex/A	76
+*$ 8-1selor.gex/B	76
+*$ 8-1selor.gex/nand4_v2.gex/B	76
+*$ er4_sw.gex/OUT	76
+*$ er4_sw.gex/erunit_sw.gex/inv1_v2.gex/Y	76
+*$ er4_sw.gex/erunit_sw.gex/nand2_v2.gex/Y	76
+*$ s2	76
+*$ er4_sw.gex/erunit.gex/inv1_v2.gex/A	77
+*$ er4_sw.gex/erunit_sw.gex/inv1_v2.gex/Y	77
+*$ er4_sw.gex/erunit.gex/inv1_v2.gex/A	78
+*$ er4_sw.gex/erunit_sw.gex/inv1_v2_special.gex/Y	78
+*$ er4_sw.gex/erunit_sw.gex/nand2_v2.gex/A	79
+*$ er4_sw.gex/erunit_sw.gex/Y	79
+*$ er4_sw.gex/erunit.gex/inv1_v2.gex/A	80
+*$ er4_sw.gex/erunit.gex/inv1_v2_special.gex/A	80
+*$ er4_sw.gex/erunit.gex/inv1_v2.gex/Y	80
+*$ er4_sw.gex/erunit.gex/inv1_v2.gex/A	81
+*$ er4_sw.gex/erunit.gex/inv1_v2.gex/Y	81
+*$ er4_sw.gex/erunit.gex/inv1_v2.gex/A	82
+*$ er4_sw.gex/erunit.gex/inv1_v2_special.gex/Y	82
+*$ er4_sw.gex/erunit.gex/inv1_v2.gex/A	83
+*$ er4_sw.gex/erunit.gex/inv1_v2.gex/Y	83
+*$ er4_sw.gex/erunit.gex/inv1_v2.gex/A	84
+*$ er4_sw.gex/erunit.gex/inv1_v2_special.gex/A	84
+*$ er4_sw.gex/erunit.gex/inv1_v2.gex/Y	84
+*$ er4_sw.gex/erunit.gex/inv1_v2.gex/A	85
+*$ er4_sw.gex/erunit.gex/inv1_v2.gex/Y	85
+*$ 8-1selor.gex/nand4_v2.gex/A	86
+*$ 8-1selor.gex/E	86
+*$ ring7L4.gex/OUT	86
+*$ ring7L4.gex/inv1_v2.gex/Y	86
+*$ s5	86
+*$ ring7L4.gex/inv1L4.gex/A	87
+*$ ring7L4.gex/inv1_v2.gex/A	87
+*$ ring7L4.gex/inv1L4_psw.gex/Y	87
+*$ ring7L4.gex/inv1L4.gex/A	88
+*$ ring7L4.gex/inv1L4.gex/Y	88
+*$ ring7L4.gex/inv1L4.gex/A	89
+*$ ring7L4.gex/inv1L4.gex/Y	89
+*$ ring7L4.gex/inv1L4.gex/A	90
+*$ ring7L4.gex/inv1L4.gex/Y	90
+*$ ring7L4.gex/inv1L4.gex/A	91
+*$ ring7L4.gex/inv1L4.gex/Y	91
+*$ ring7L4.gex/inv1L4.gex/A	92
+*$ ring7L4.gex/inv1L4.gex/Y	92
+*$ ring7L4.gex/inv1L4_psw.gex/A	93
+*$ ring7L4.gex/inv1L4.gex/Y	93
+*$ ring7_nand.gex/nand2_v2.gex/A	94
+*$ ring7_nand.gex/inv1_v2.gex/Y	94
+*$ ring7_nand.gex/inv1_v2.gex/A	95
+*$ 8-1selor.gex/nand4_v2.gex/D	95
+*$ 8-1selor.gex/H	95
+*$ ring7_nand.gex/OUT	95
+*$ ring7_nand.gex/nand2_v2.gex/Y	95
+*$ s8	95
+*$ ring7_nand.gex/nand2_v2.gex/B	96
+*$ ring7_nand.gex/inv1_v2.gex/Y	96
+*$ ring7_nand.gex/inv1_v2.gex/A	97
+*$ ring7_nand.gex/inv1_v2.gex/Y	97
+*$ ring7_nand.gex/inv1_v2.gex/A	98
+*$ ring7_nand.gex/inv1_v2.gex/Y	98
+*$ ring7_nand.gex/inv1_v2.gex/A	99
+*$ ring7_nand.gex/inv1_v2.gex/Y	99
+*$ ring7_nand.gex/inv1_v2.gex/A	100
+*$ ring7_nand.gex/inv1_v2.gex/Y	100
+*$ ring7_nand.gex/inv1_v2.gex/A	101
+*$ ring7_nand.gex/inv1_v2.gex/Y	101
+*$ 64div.gex/dff_v2.gex/D	102
+*$ 64div.gex/dff_v2.gex/QB	102
+*$ 64div.gex/dff_v2.gex/Q	103
+*$ 64div.gex/dff_v2.gex/CK	104
+*$ 64div.gex/dff_v2.gex/Q	104
+*$ 64div.gex/dff_v2.gex/D	105
+*$ 64div.gex/dff_v2.gex/QB	105
+*$ 64div.gex/dff_v2.gex/CK	106
+*$ 64div.gex/dff_v2.gex/Q	106
+*$ 64div.gex/dff_v2.gex/D	107
+*$ 64div.gex/dff_v2.gex/QB	107
+*$ 64div.gex/dff_v2.gex/CK	108
+*$ 64div.gex/dff_v2.gex/Q	108
+*$ 64div.gex/dff_v2.gex/D	109
+*$ 64div.gex/dff_v2.gex/QB	109
+*$ 64div.gex/dff_v2.gex/CK	110
+*$ 64div.gex/dff_v2.gex/Q	110
+*$ 64div.gex/dff_v2.gex/D	111
+*$ 64div.gex/dff_v2.gex/QB	111
+*$ 64div.gex/dff_v2.gex/CK	112
+*$ 64div.gex/dff_v2.gex/Q	112
+*$ 64div.gex/dff_v2.gex/D	113
+*$ 64div.gex/dff_v2.gex/QB	113
+*$ 64div.gex/dff_v2.gex/CK	114
+*$ 64div.gex/In	114
+*$ 8-1selor.gex/OUT	114
+*$ 8-1selor.gex/nor2_v2.gex/Y	114
+*$ sout	114
+*$ 8-1selor.gex/nor2_v2.gex/B	115
+*$ 8-1selor.gex/nand4_v2.gex/Y	115
+*$ test	115
+*$ 8-1selor.gex/D	116
+*$ 8-1selor.gex/nand4_v2.gex/D	116
+*$ ring7_nor.gex/OUT	116
+*$ ring7_nor.gex/inv1_v2.gex/Y	116
+*$ s4	116
+*$ 8-1selor.gex/nor2_v2.gex/A	117
+*$ 8-1selor.gex/nand4_v2.gex/Y	117
+*$ ring7_nor.gex/nor2_v2.gex/B	118
+*$ ring7_nor.gex/inv1_v2.gex/Y	118
+*$ ring7_nor.gex/inv1_v2.gex/A	119
+*$ ring7_nor.gex/inv1_v2.gex/Y	119
+*$ ring7_nor.gex/inv1_v2.gex/A	120
+*$ ring7_nor.gex/inv1_v2.gex/Y	120
+*$ ring7_nor.gex/inv1_v2.gex/A	121
+*$ ring7_nor.gex/inv1_v2.gex/Y	121
+*$ ring7_nor.gex/inv1_v2.gex/A	122
+*$ ring7_nor.gex/inv1_v2.gex/Y	122
+*$ ring7_nor.gex/inv1_v2.gex/A	123
+*$ ring7_nor.gex/inv1_v2.gex/Y	123
+*$ ring7_nor.gex/inv1_v2.gex/A	124
+*$ ring7_nor.gex/nor2_v2.gex/Y	124
+*$ 64div.gex/OUT	125
+*$ OUT	125
+* SPICE FET model
+v1 1 0 pulse 0 5
+vx 43 0 0
+vy 41 0 5
+vz 45 0 5
+mfet1 1 7 8 1 pch w=22u l=2u
+mfet2 1 26 25 1 pch w=18u l=2u
+mfet3 1 6 7 1 pch w=22u l=2u
+mfet4 1 25 26 1 pch w=18u l=2u
+mfet5 1 5 6 1 pch w=22u l=2u
+mfet6 1 113 195 1 pch w=18u l=2u
+mfet7 1 3 5 1 pch w=22u l=2u
+mfet8 1 126 134 1 pch w=18u l=2u
+mfet9 1 3 2 1 pch w=22u l=2u
+mfet10 1 134 196 1 pch w=18u l=2u
+mfet11 1 101 96 1 pch w=18u l=2u
+mfet12 126 129 196 1 pch w=18u l=2u
+mfet13 1 100 101 1 pch w=18u l=2u
+mfet14 126 114 195 1 pch w=18u l=2u
+mfet15 1 99 100 1 pch w=18u l=2u
+mfet16 1 114 129 1 pch w=18u l=2u
+mfet17 1 98 99 1 pch w=18u l=2u
+mfet18 1 25 28 1 pch w=18u l=2u
+mfet19 1 97 98 1 pch w=18u l=2u
+mfet20 1 35 34 1 pch w=18u l=2u
+mfet21 1 123 122 1 pch w=18u l=2u
+mfet22 1 28 34 1 pch w=18u l=2u
+mfet23 1 122 121 1 pch w=18u l=2u
+mfet24 1 34 32 1 pch w=18u l=2u
+mfet25 1 121 120 1 pch w=18u l=2u
+mfet26 1 26 27 1 pch w=18u l=2u
+mfet27 1 120 119 1 pch w=18u l=2u
+mfet28 1 34 35 1 pch w=18u l=2u
+mfet29 1 119 118 1 pch w=18u l=2u
+mfet30 1 27 35 1 pch w=18u l=2u
+mfet31 1 35 31 1 pch w=18u l=2u
+mfet32 3 4 198 1 pch w=22u l=2u
+mfet33 1 10 198 1 pch w=150u l=2u
+mfet34 1 8 9 1 pch w=22u l=2u
+mfet35 1 9 4 1 pch w=22u l=2u
+mfet36 1 51 94 1 pch w=18u l=2u
+mfet37 147 112 197 1 pch w=18u l=2u
+mfet38 1 96 95 1 pch w=18u l=2u
+mfet39 1 111 197 1 pch w=18u l=2u
+mfet40 1 94 95 1 pch w=18u l=2u
+mfet41 1 112 133 1 pch w=18u l=2u
+mfet42 113 129 199 1 pch w=18u l=2u
+mfet43 114 115 211 1 pch w=18u l=2u
+mfet44 1 134 199 1 pch w=18u l=2u
+mfet45 1 24 25 1 pch w=18u l=2u
+mfet46 113 114 200 1 pch w=18u l=2u
+mfet47 1 21 24 1 pch w=18u l=2u
+mfet48 1 112 200 1 pch w=18u l=2u
+mfet49 1 20 21 1 pch w=18u l=2u
+mfet50 1 113 112 1 pch w=18u l=2u
+mfet51 1 22 21 1 pch w=18u l=2u
+mfet52 1 18 19 1 pch w=18u l=2u
+mfet53 1 17 20 1 pch w=18u l=2u
+mfet54 1 21 22 1 pch w=18u l=2u
+mfet55 1 50 210 1 pch w=18u l=2u
+mfet56 1 19 22 1 pch w=18u l=2u
+mfet57 124 118 210 1 pch w=18u l=2u
+mfet58 1 22 23 1 pch w=18u l=2u
+mfet59 1 124 116 1 pch w=18u l=2u
+mfet60 1 23 26 1 pch w=18u l=2u
+mfet61 1 124 123 1 pch w=18u l=2u
+mfet62 1 95 97 1 pch w=18u l=2u
+mfet63 142 138 205 1 pch w=18u l=2u
+mfet64 1 144 205 1 pch w=18u l=2u
+mfet65 1 110 138 1 pch w=18u l=2u
+mfet66 1 142 144 1 pch w=18u l=2u
+mfet67 1 109 204 1 pch w=18u l=2u
+mfet68 147 133 201 1 pch w=18u l=2u
+mfet69 142 110 204 1 pch w=18u l=2u
+mfet70 1 140 201 1 pch w=18u l=2u
+mfet71 1 110 202 1 pch w=18u l=2u
+mfet72 1 147 140 1 pch w=18u l=2u
+mfet73 1 111 110 1 pch w=18u l=2u
+mfet74 1 144 206 1 pch w=18u l=2u
+mfet75 111 112 202 1 pch w=18u l=2u
+mfet76 109 138 206 1 pch w=18u l=2u
+mfet77 1 140 203 1 pch w=18u l=2u
+mfet78 109 110 207 1 pch w=18u l=2u
+mfet79 111 133 203 1 pch w=18u l=2u
+mfet80 1 63 62 1 pch w=18u l=2u
+mfet81 1 62 61 1 pch w=18u l=2u
+mfet82 1 64 63 1 pch w=18u l=2u
+mfet83 1 66 65 1 pch w=18u l=2u
+mfet84 67 61 209 1 pch w=18u l=2u
+mfet85 1 67 66 1 pch w=18u l=2u
+mfet86 1 90 91 1 pch w=18u l=4u
+mfet87 1 67 68 1 pch w=18u l=2u
+mfet88 1 91 92 1 pch w=18u l=4u
+mfet89 1 87 86 1 pch w=18u l=2u
+mfet90 1 92 93 1 pch w=18u l=4u
+mfet91 1 87 88 1 pch w=18u l=4u
+mfet92 87 93 208 1 pch w=18u l=4u
+mfet93 1 88 89 1 pch w=18u l=4u
+mfet94 1 65 64 1 pch w=18u l=2u
+mfet95 1 89 90 1 pch w=18u l=4u
+mfet96 1 15 18 1 pch w=18u l=2u
+mfet97 1 117 211 1 pch w=18u l=2u
+mfet98 1 17 18 1 pch w=18u l=2u
+mfet99 1 30 115 1 pch w=18u l=2u
+mfet100 1 16 17 1 pch w=18u l=2u
+mfet101 1 116 115 1 pch w=18u l=2u
+mfet102 1 18 17 1 pch w=18u l=2u
+mfet103 1 53 115 1 pch w=18u l=2u
+mfet104 1 11 16 1 pch w=18u l=2u
+mfet105 1 76 115 1 pch w=18u l=2u
+mfet106 1 12 15 1 pch w=18u l=2u
+mfet107 1 14 12 1 pch w=18u l=2u
+mfet108 1 11 12 1 pch w=18u l=2u
+mfet109 1 13 11 1 pch w=18u l=2u
+mfet110 1 12 11 1 pch w=18u l=2u
+mfet111 1 46 33 1 pch w=18u l=2u
+mfet112 1 68 117 1 pch w=18u l=2u
+mfet113 1 32 30 1 pch w=18u l=2u
+mfet114 1 2 117 1 pch w=18u l=2u
+mfet115 1 33 30 1 pch w=18u l=2u
+mfet116 1 95 117 1 pch w=18u l=2u
+mfet117 1 29 13 1 pch w=18u l=2u
+mfet118 1 86 117 1 pch w=18u l=2u
+mfet119 1 30 14 1 pch w=18u l=2u
+mfet120 1 30 29 1 pch w=18u l=2u
+mfet121 1 29 30 1 pch w=18u l=2u
+mfet122 1 31 29 1 pch w=18u l=2u
+mfet123 1 83 81 1 pch w=18u l=2u
+mfet124 1 109 108 1 pch w=18u l=2u
+mfet125 1 82 80 1 pch w=18u l=2u
+mfet126 1 37 208 1 pch w=150u l=2u
+mfet127 1 71 69 1 pch w=18u l=2u
+mfet128 1 72 70 1 pch w=18u l=2u
+mfet129 163 108 212 1 pch w=18u l=2u
+mfet130 1 69 74 1 pch w=18u l=2u
+mfet131 1 107 212 1 pch w=18u l=2u
+mfet132 1 70 73 1 pch w=18u l=2u
+mfet133 1 108 156 1 pch w=18u l=2u
+mfet134 1 49 209 1 pch w=150u l=2u
+mfet135 163 156 214 1 pch w=18u l=2u
+mfet136 1 162 214 1 pch w=18u l=2u
+mfet137 1 163 162 1 pch w=18u l=2u
+mfet138 1 44 51 1 pch w=18u l=2u
+mfet139 1 80 71 1 pch w=18u l=2u
+mfet140 1 40 51 1 pch w=18u l=2u
+mfet141 1 81 72 1 pch w=18u l=2u
+mfet142 1 162 213 1 pch w=18u l=2u
+mfet143 1 80 81 1 pch w=18u l=2u
+mfet144 1 160 125 1 pch w=192u l=2u
+mfet145 1 81 80 1 pch w=18u l=2u
+mfet146 1 103 160 1 pch w=48u l=2u
+mfet147 1 70 69 1 pch w=18u l=2u
+mfet148 1 69 70 1 pch w=18u l=2u
+mfet149 1 77 85 1 pch w=18u l=2u
+mfet150 167 106 217 1 pch w=18u l=2u
+mfet151 1 78 84 1 pch w=18u l=2u
+mfet152 167 172 216 1 pch w=18u l=2u
+mfet153 1 39 49 1 pch w=18u l=2u
+mfet154 1 173 216 1 pch w=18u l=2u
+mfet155 1 38 49 1 pch w=18u l=2u
+mfet156 1 105 217 1 pch w=18u l=2u
+mfet157 1 40 49 1 pch w=18u l=2u
+mfet158 1 106 172 1 pch w=18u l=2u
+mfet159 1 75 78 1 pch w=18u l=2u
+mfet160 1 39 51 1 pch w=18u l=2u
+mfet161 1 76 77 1 pch w=18u l=2u
+mfet162 1 106 215 1 pch w=18u l=2u
+mfet163 1 75 76 1 pch w=18u l=2u
+mfet164 1 107 106 1 pch w=18u l=2u
+mfet165 1 76 75 1 pch w=18u l=2u
+mfet166 107 156 213 1 pch w=18u l=2u
+mfet167 1 36 50 1 pch w=18u l=2u
+mfet168 107 108 215 1 pch w=18u l=2u
+mfet169 1 44 50 1 pch w=18u l=2u
+mfet170 1 39 50 1 pch w=18u l=2u
+mfet171 1 85 84 1 pch w=18u l=2u
+mfet172 1 84 85 1 pch w=18u l=2u
+mfet173 1 84 82 1 pch w=18u l=2u
+mfet174 1 85 83 1 pch w=18u l=2u
+mfet175 1 44 46 1 pch w=18u l=2u
+mfet176 1 38 37 1 pch w=18u l=2u
+mfet177 1 36 46 1 pch w=18u l=2u
+mfet178 1 39 37 1 pch w=18u l=2u
+mfet179 1 60 54 1 pch w=18u l=2u
+mfet180 1 40 36 1 pch w=18u l=2u
+mfet181 1 59 57 1 pch w=18u l=2u
+mfet182 1 167 173 1 pch w=18u l=2u
+mfet183 1 47 79 1 pch w=18u l=2u
+mfet184 1 73 75 1 pch w=18u l=2u
+mfet185 1 173 218 1 pch w=18u l=2u
+mfet186 1 79 76 1 pch w=18u l=2u
+mfet187 105 172 218 1 pch w=18u l=2u
+mfet188 1 74 76 1 pch w=18u l=2u
+mfet189 1 104 219 1 pch w=18u l=2u
+mfet190 1 102 223 1 pch w=18u l=2u
+mfet191 1 105 104 1 pch w=18u l=2u
+mfet192 1 104 181 1 pch w=18u l=2u
+mfet193 105 106 219 1 pch w=18u l=2u
+mfet194 1 41 40 1 pch w=18u l=2u
+mfet195 1 40 10 1 pch w=18u l=2u
+mfet196 1 44 38 1 pch w=18u l=2u
+mfet197 1 42 10 1 pch w=18u l=2u
+mfet198 1 44 10 1 pch w=18u l=2u
+mfet199 1 42 46 1 pch w=18u l=2u
+mfet200 1 188 186 1 pch w=18u l=2u
+mfet201 1 60 59 1 pch w=18u l=2u
+mfet202 1 186 220 1 pch w=18u l=2u
+mfet203 1 59 60 1 pch w=18u l=2u
+mfet204 188 181 220 1 pch w=18u l=2u
+mfet205 102 181 222 1 pch w=18u l=2u
+mfet206 188 104 223 1 pch w=18u l=2u
+mfet207 1 186 222 1 pch w=18u l=2u
+mfet208 1 45 44 1 pch w=18u l=2u
+mfet209 102 104 221 1 pch w=18u l=2u
+mfet210 1 42 47 1 pch w=18u l=2u
+mfet211 1 102 103 1 pch w=18u l=2u
+mfet212 1 38 47 1 pch w=18u l=2u
+mfet213 1 103 221 1 pch w=18u l=2u
+mfet214 1 40 47 1 pch w=18u l=2u
+mfet215 1 52 53 1 pch w=18u l=2u
+mfet216 1 53 55 1 pch w=18u l=2u
+mfet217 1 53 52 1 pch w=18u l=2u
+mfet218 1 52 56 1 pch w=18u l=2u
+mfet219 1 36 48 1 pch w=18u l=2u
+mfet220 1 56 59 1 pch w=18u l=2u
+mfet221 1 38 48 1 pch w=18u l=2u
+mfet222 1 55 60 1 pch w=18u l=2u
+mfet223 1 42 48 1 pch w=18u l=2u
+mfet224 1 39 42 1 pch w=18u l=2u
+mfet225 1 48 58 1 pch w=18u l=2u
+mfet226 1 43 39 1 pch w=18u l=2u
+mfet227 1 58 53 1 pch w=18u l=2u
+mfet228 1 54 52 1 pch w=18u l=2u
+mfet229 1 57 53 1 pch w=18u l=2u
+mfet230 1 36 37 1 pch w=18u l=2u
+mfet231 1 108 207 1 pch w=18u l=2u
+mfet232 0 6 7 0 nch w=14u l=2u
+mfet233 132 133 147 0 nch w=6u l=2u
+mfet234 0 5 6 0 nch w=14u l=2u
+mfet235 0 111 132 0 nch w=6u l=2u
+mfet236 0 3 5 0 nch w=14u l=2u
+mfet237 0 112 133 0 nch w=6u l=2u
+mfet238 0 3 2 0 nch w=14u l=2u
+mfet239 0 113 127 0 nch w=6u l=2u
+mfet240 0 101 96 0 nch w=6u l=2u
+mfet241 0 126 134 0 nch w=6u l=2u
+mfet242 0 100 101 0 nch w=6u l=2u
+mfet243 0 134 128 0 nch w=6u l=2u
+mfet244 0 99 100 0 nch w=6u l=2u
+mfet245 126 114 128 0 nch w=6u l=2u
+mfet246 0 98 99 0 nch w=6u l=2u
+mfet247 126 129 127 0 nch w=6u l=2u
+mfet248 0 4 3 0 nch w=14u l=2u
+mfet249 0 114 129 0 nch w=6u l=2u
+mfet250 0 8 9 0 nch w=14u l=2u
+mfet251 0 97 98 0 nch w=6u l=2u
+mfet252 0 9 4 0 nch w=14u l=2u
+mfet253 0 7 8 0 nch w=14u l=2u
+mfet254 0 51 94 0 nch w=6u l=2u
+mfet255 0 95 97 0 nch w=6u l=2u
+mfet256 95 96 135 0 nch w=6u l=2u
+mfet257 0 113 112 0 nch w=6u l=2u
+mfet258 0 94 135 0 nch w=6u l=2u
+mfet259 0 112 130 0 nch w=6u l=2u
+mfet260 113 114 131 0 nch w=6u l=2u
+mfet261 113 129 130 0 nch w=6u l=2u
+mfet262 0 134 131 0 nch w=6u l=2u
+mfet263 111 112 136 0 nch w=6u l=2u
+mfet264 0 140 136 0 nch w=6u l=2u
+mfet265 0 89 90 0 nch w=6u l=4u
+mfet266 111 133 137 0 nch w=6u l=2u
+mfet267 0 88 89 0 nch w=6u l=4u
+mfet268 0 111 110 0 nch w=6u l=2u
+mfet269 0 87 88 0 nch w=6u l=4u
+mfet270 0 110 137 0 nch w=6u l=2u
+mfet271 0 87 86 0 nch w=6u l=2u
+mfet272 139 112 147 0 nch w=6u l=2u
+mfet273 0 67 68 0 nch w=6u l=2u
+mfet274 0 140 139 0 nch w=6u l=2u
+mfet275 0 67 66 0 nch w=6u l=2u
+mfet276 0 147 140 0 nch w=6u l=2u
+mfet277 0 66 65 0 nch w=6u l=2u
+mfet278 141 138 142 0 nch w=6u l=2u
+mfet279 0 65 64 0 nch w=6u l=2u
+mfet280 0 109 141 0 nch w=6u l=2u
+mfet281 0 93 87 0 nch w=6u l=4u
+mfet282 0 110 138 0 nch w=6u l=2u
+mfet283 0 92 93 0 nch w=6u l=4u
+mfet284 142 110 143 0 nch w=6u l=2u
+mfet285 0 91 92 0 nch w=6u l=4u
+mfet286 0 144 143 0 nch w=6u l=2u
+mfet287 0 90 91 0 nch w=6u l=4u
+mfet288 0 142 144 0 nch w=6u l=2u
+mfet289 0 61 67 0 nch w=6u l=2u
+mfet290 0 144 146 0 nch w=6u l=2u
+mfet291 0 64 63 0 nch w=6u l=2u
+mfet292 109 110 146 0 nch w=6u l=2u
+mfet293 0 63 62 0 nch w=6u l=2u
+mfet294 109 138 145 0 nch w=6u l=2u
+mfet295 0 62 61 0 nch w=6u l=2u
+mfet296 155 156 163 0 nch w=6u l=2u
+mfet297 0 109 108 0 nch w=6u l=2u
+mfet298 0 107 155 0 nch w=6u l=2u
+mfet299 167 172 169 0 nch w=6u l=2u
+mfet300 0 108 156 0 nch w=6u l=2u
+mfet301 167 106 168 0 nch w=6u l=2u
+mfet302 161 108 163 0 nch w=6u l=2u
+mfet303 0 173 168 0 nch w=6u l=2u
+mfet304 0 162 161 0 nch w=6u l=2u
+mfet305 0 105 169 0 nch w=6u l=2u
+mfet306 0 163 162 0 nch w=6u l=2u
+mfet307 0 106 172 0 nch w=6u l=2u
+mfet308 0 162 158 0 nch w=6u l=2u
+mfet309 0 40 36 0 nch w=6u l=2u
+mfet310 107 156 164 0 nch w=6u l=2u
+mfet311 0 160 125 0 nch w=96u l=2u
+mfet312 0 103 160 0 nch w=24u l=2u
+mfet313 0 106 164 0 nch w=6u l=2u
+mfet314 107 108 158 0 nch w=6u l=2u
+mfet315 0 107 106 0 nch w=6u l=2u
+mfet316 0 45 44 0 nch w=6u l=2u
+mfet317 0 167 173 0 nch w=6u l=2u
+mfet318 0 104 181 0 nch w=6u l=2u
+mfet319 0 41 40 0 nch w=6u l=2u
+mfet320 0 102 180 0 nch w=6u l=2u
+mfet321 0 44 38 0 nch w=6u l=2u
+mfet322 180 181 188 0 nch w=6u l=2u
+mfet323 105 172 183 0 nch w=6u l=2u
+mfet324 187 104 188 0 nch w=6u l=2u
+mfet325 0 105 104 0 nch w=6u l=2u
+mfet326 0 186 187 0 nch w=6u l=2u
+mfet327 0 104 183 0 nch w=6u l=2u
+mfet328 0 188 186 0 nch w=6u l=2u
+mfet329 105 106 177 0 nch w=6u l=2u
+mfet330 102 104 192 0 nch w=6u l=2u
+mfet331 0 173 177 0 nch w=6u l=2u
+mfet332 0 186 192 0 nch w=6u l=2u
+mfet333 0 39 42 0 nch w=6u l=2u
+mfet334 102 181 193 0 nch w=6u l=2u
+mfet335 0 43 39 0 nch w=6u l=2u
+mfet336 0 102 103 0 nch w=6u l=2u
+mfet337 0 103 193 0 nch w=6u l=2u
+mfet338 0 108 145 0 nch w=6u l=2u
+mfet339 0 123 122 0 nch w=6u l=2u
+mfet340 0 26 25 0 nch w=6u l=2u
+mfet341 0 122 121 0 nch w=6u l=2u
+mfet342 0 25 26 0 nch w=6u l=2u
+mfet343 0 121 120 0 nch w=6u l=2u
+mfet344 0 22 21 0 nch w=6u l=2u
+mfet345 0 120 119 0 nch w=6u l=2u
+mfet346 0 20 21 0 nch w=6u l=2u
+mfet347 0 119 118 0 nch w=6u l=2u
+mfet348 0 21 22 0 nch w=6u l=2u
+mfet349 0 118 124 0 nch w=6u l=2u
+mfet350 0 19 22 0 nch w=6u l=2u
+mfet351 0 50 124 0 nch w=6u l=2u
+mfet352 0 22 23 0 nch w=6u l=2u
+mfet353 0 124 116 0 nch w=6u l=2u
+mfet354 0 21 24 0 nch w=6u l=2u
+mfet355 0 124 123 0 nch w=6u l=2u
+mfet356 0 24 25 0 nch w=6u l=2u
+mfet357 0 34 32 0 nch w=6u l=2u
+mfet358 0 23 26 0 nch w=6u l=2u
+mfet359 0 28 34 0 nch w=6u l=2u
+mfet360 0 26 27 0 nch w=6u l=2u
+mfet361 0 35 34 0 nch w=6u l=2u
+mfet362 0 34 35 0 nch w=6u l=2u
+mfet363 0 25 28 0 nch w=6u l=2u
+mfet364 0 27 35 0 nch w=6u l=2u
+mfet365 0 35 31 0 nch w=6u l=2u
+mfet366 0 17 20 0 nch w=6u l=2u
+mfet367 0 117 114 0 nch w=6u l=2u
+mfet368 0 18 19 0 nch w=6u l=2u
+mfet369 0 115 114 0 nch w=6u l=2u
+mfet370 0 15 18 0 nch w=6u l=2u
+mfet371 0 30 152 0 nch w=6u l=2u
+mfet372 0 17 18 0 nch w=6u l=2u
+mfet373 115 116 151 0 nch w=6u l=2u
+mfet374 0 16 17 0 nch w=6u l=2u
+mfet375 151 53 153 0 nch w=6u l=2u
+mfet376 0 18 17 0 nch w=6u l=2u
+mfet377 152 76 153 0 nch w=6u l=2u
+mfet378 0 11 16 0 nch w=6u l=2u
+mfet379 0 14 12 0 nch w=6u l=2u
+mfet380 0 12 15 0 nch w=6u l=2u
+mfet381 0 13 11 0 nch w=6u l=2u
+mfet382 0 11 12 0 nch w=6u l=2u
+mfet383 0 46 33 0 nch w=6u l=2u
+mfet384 0 12 11 0 nch w=6u l=2u
+mfet385 30 32 154 0 nch w=6u l=2u
+mfet386 148 68 149 0 nch w=6u l=2u
+mfet387 0 33 154 0 nch w=6u l=2u
+mfet388 148 2 150 0 nch w=6u l=2u
+mfet389 0 29 13 0 nch w=6u l=2u
+mfet390 117 95 150 0 nch w=6u l=2u
+mfet391 0 30 14 0 nch w=6u l=2u
+mfet392 0 86 149 0 nch w=6u l=2u
+mfet393 0 29 30 0 nch w=6u l=2u
+mfet394 0 30 29 0 nch w=6u l=2u
+mfet395 0 31 29 0 nch w=6u l=2u
+mfet396 0 72 70 0 nch w=6u l=2u
+mfet397 0 69 74 0 nch w=6u l=2u
+mfet398 0 71 69 0 nch w=6u l=2u
+mfet399 0 70 73 0 nch w=6u l=2u
+mfet400 0 80 71 0 nch w=6u l=2u
+mfet401 0 83 81 0 nch w=6u l=2u
+mfet402 0 81 72 0 nch w=6u l=2u
+mfet403 0 82 80 0 nch w=6u l=2u
+mfet404 0 80 81 0 nch w=6u l=2u
+mfet405 0 39 159 0 nch w=6u l=2u
+mfet406 0 81 80 0 nch w=6u l=2u
+mfet407 157 44 159 0 nch w=6u l=2u
+mfet408 0 69 70 0 nch w=6u l=2u
+mfet409 51 40 157 0 nch w=6u l=2u
+mfet410 0 70 69 0 nch w=6u l=2u
+mfet411 0 39 166 0 nch w=6u l=2u
+mfet412 0 77 85 0 nch w=6u l=2u
+mfet413 165 44 166 0 nch w=6u l=2u
+mfet414 0 78 84 0 nch w=6u l=2u
+mfet415 50 36 165 0 nch w=6u l=2u
+mfet416 0 39 171 0 nch w=6u l=2u
+mfet417 0 85 84 0 nch w=6u l=2u
+mfet418 170 38 171 0 nch w=6u l=2u
+mfet419 0 84 85 0 nch w=6u l=2u
+mfet420 49 40 170 0 nch w=6u l=2u
+mfet421 0 85 83 0 nch w=6u l=2u
+mfet422 0 75 78 0 nch w=6u l=2u
+mfet423 0 84 82 0 nch w=6u l=2u
+mfet424 0 76 77 0 nch w=6u l=2u
+mfet425 0 76 75 0 nch w=6u l=2u
+mfet426 0 75 76 0 nch w=6u l=2u
+mfet427 10 40 176 0 nch w=6u l=2u
+mfet428 174 38 194 0 nch w=6u l=2u
+mfet429 0 42 182 0 nch w=6u l=2u
+mfet430 0 39 174 0 nch w=6u l=2u
+mfet431 176 44 182 0 nch w=6u l=2u
+mfet432 0 60 59 0 nch w=6u l=2u
+mfet433 47 40 184 0 nch w=6u l=2u
+mfet434 0 59 60 0 nch w=6u l=2u
+mfet435 184 38 185 0 nch w=6u l=2u
+mfet436 0 52 53 0 nch w=6u l=2u
+mfet437 0 42 185 0 nch w=6u l=2u
+mfet438 0 53 52 0 nch w=6u l=2u
+mfet439 48 36 190 0 nch w=6u l=2u
+mfet440 0 48 58 0 nch w=6u l=2u
+mfet441 190 38 191 0 nch w=6u l=2u
+mfet442 53 57 189 0 nch w=6u l=2u
+mfet443 0 42 191 0 nch w=6u l=2u
+mfet444 0 58 189 0 nch w=6u l=2u
+mfet445 178 44 179 0 nch w=6u l=2u
+mfet446 0 54 52 0 nch w=6u l=2u
+mfet447 46 36 178 0 nch w=6u l=2u
+mfet448 0 55 60 0 nch w=6u l=2u
+mfet449 0 42 179 0 nch w=6u l=2u
+mfet450 0 56 59 0 nch w=6u l=2u
+mfet451 0 60 54 0 nch w=6u l=2u
+mfet452 0 52 56 0 nch w=6u l=2u
+mfet453 0 59 57 0 nch w=6u l=2u
+mfet454 0 53 55 0 nch w=6u l=2u
+mfet455 0 73 75 0 nch w=6u l=2u
+mfet456 0 47 79 0 nch w=6u l=2u
+mfet457 76 74 175 0 nch w=6u l=2u
+mfet458 0 79 175 0 nch w=6u l=2u
+mfet459 37 36 194 0 nch w=6u l=2u

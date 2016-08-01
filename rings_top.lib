@@ -1,0 +1,14 @@
+* block symbol definitions
+.subckt rings_top vdd x y z out
+XX1 0 vdd x y z A B C D E F N003 H 8-1seldec
+XX2 N006 N007 N009 N008 N004 N001 N002 0 N005 vdd N010 8-1selor
+XX3 0 N010 vdd out 64div
+XX4 C vdd N006 ring24
+XX5 A vdd N009 ring8
+XX6 B vdd N007 ring16
+XX7 D vdd N002 ring7_l2w14p22
+XX8 E vdd N004 ring7_l4
+XX9 N003 vdd N001 ring7_psw
+XX11 H vdd N005 ring7_nand
+XX10 F vdd N008 ring7_nor
+.ends rings_top

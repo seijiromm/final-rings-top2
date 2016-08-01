@@ -1,0 +1,15 @@
+---
+grid_size: 0.0625
+cells:
+  8-1seldec: circuits
+  8-1selor: circuits
+  64div: circuits
+  ring24: circuits
+  ring8: circuits
+  ring16: circuits
+  ring7_L2W14p22: circuits
+  ring7_L4: circuits
+  ring7_psw: circuits
+  ring7_nand: circuits
+  ring7_nor: circuits
+thick_wires: 

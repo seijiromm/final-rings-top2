@@ -1,0 +1,10 @@
+.subckt ring7_nand sw vcc out
+XX2 0 out N002 vcc myinv
+XX3 0 N002 N003 vcc myinv
+XX4 0 N003 N004 vcc myinv
+XX6 0 N004 N006 vcc myinv
+XX7 0 N006 N007 vcc myinv
+XX8 0 N007 N001 vcc myinv
+XX1 N001 N005 0 vcc out mynand2
+XX5 0 sw N005 vcc myinv
+.ends ring7_nand

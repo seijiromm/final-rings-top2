@@ -1,0 +1,10 @@
+.subckt mynand4 A B C D gnd vdd Z
+M1 Z A vdd vdd pch l=2u w=18u
+M2 Z B vdd vdd pch l=2u w=18u
+M3 Z C vdd vdd pch l=2u w=18u
+M4 Z D vdd vdd pch l=2u w=18u
+M5 Z A N001 gnd nch l=2u w=6u
+M6 N001 B N002 gnd nch l=2u w=6u
+M7 N002 C N003 gnd nch l=2u w=6u
+M8 N003 D gnd gnd nch l=2u w=6u
+.ends mynand4

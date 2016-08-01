@@ -1,0 +1,16 @@
+.subckt 8-1seldec gnd vdd X Y Z A B C D E F G H
+XX6 gnd X N005 vdd myinv
+XX7 gnd N005 N001 vdd myinv
+XX9 gnd Y N006 vdd myinv
+XX10 gnd N006 N002 vdd myinv
+XX16 gnd Z N004 vdd myinv
+XX17 gnd N004 N003 vdd myinv
+XX1 N001 N002 N003 gnd vdd A mynand3
+XX2 N001 N002 N004 gnd vdd B mynand3
+XX3 N001 N006 N003 gnd vdd C mynand3
+XX4 N001 N006 N004 gnd vdd D mynand3
+XX11 N005 N002 N003 gnd vdd E mynand3
+XX12 N005 N002 N004 gnd vdd F mynand3
+XX13 N005 N006 N003 gnd vdd G mynand3
+XX14 N005 N006 N004 gnd vdd H mynand3
+.ends 8-1seldec

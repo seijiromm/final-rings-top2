@@ -1,0 +1,4 @@
+.subckt myinv_l2w14p22 gnd in out vcc
+M1 out in gnd gnd nch l=2u w=14u
+M2 out in vcc vcc pch l=2u w=22u
+.ends myinv_l2w14p22

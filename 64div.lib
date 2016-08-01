@@ -1,0 +1,13 @@
+.subckt 64div gnd in vdd out
+XX1 in N001 N009 N001 vdd gnd mydff
+XX2 N009 N002 N010 N002 vdd gnd mydff
+XX3 N010 N003 N011 N003 vdd gnd mydff
+XX4 N011 N004 N012 N004 vdd gnd mydff
+XX5 N012 N005 N013 N005 vdd gnd mydff
+XX6 N013 N006 N007 N006 vdd gnd mydff
+M5 N008 N007 gnd gnd nch l=2u w=24u
+M6 N008 N007 vdd vdd pch l=2u w=48u
+M7 out N008 vdd vdd pch l=2u w=192u
+M8 out N008 gnd gnd nch l=2u w=96u
+* .include "./models/mos_tt.lib"
+.ends 64div

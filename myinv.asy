@@ -1,0 +1,20 @@
+Version 4
+SymbolType BLOCK
+LINE Normal 28 -16 -32 14
+LINE Normal -33 -43 28 -16
+LINE Normal 46 -16 28 -16
+LINE Normal -33 14 -33 -43
+CIRCLE Normal 34 -10 24 -21
+WINDOW 0 -24 -48 Bottom 2
+PIN 0 0 LEFT 8
+PINATTR PinName gnd
+PINATTR SpiceOrder 1
+PIN -32 -16 NONE 8
+PINATTR PinName in
+PINATTR SpiceOrder 2
+PIN 48 -16 NONE 8
+PINATTR PinName out
+PINATTR SpiceOrder 3
+PIN 0 -32 LEFT 8
+PINATTR PinName vcc
+PINATTR SpiceOrder 4

@@ -1,0 +1,13 @@
+.subckt unit_nand in1 in2 Vcc1 out1 out2 sw ringout Vcc2
+XX6 0 N002 Vcc2 out2 inverter
+XX12 0 ringout Vcc1 out1 inverter
+XX17 0 in2 Vcc2 N002 inverter
+XX10 0 ringout Vcc1 N002 inverter
+XX19 0 N002 Vcc2 ringout inverter
+M1 ringout N001 Vcc1 Vcc1 pch l=2u w=18u
+M2 ringout in1 Vcc1 Vcc1 pch l=2u w=18u
+M4 ringout in1 N003 0 nch l=2u w=6u
+M5 N003 N001 0 0 nch l=2u w=6u
+M3 N001 sw Vcc2 Vcc2 pch l=2u w=18u
+M6 N001 sw 0 0 nch l=2u w=6u
+.ends unit_nand

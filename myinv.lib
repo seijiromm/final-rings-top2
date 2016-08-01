@@ -1,0 +1,4 @@
+.subckt myinv gnd in out vcc
+M1 out in gnd gnd nch l=2u w=6u
+M2 out in vcc vcc pch l=2u w=18u
+.ends myinv

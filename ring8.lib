@@ -1,0 +1,4 @@
+.subckt ring8 sw vcc out
+XX4 N002 N004 vcc N003 N001 vcc unit
+XX1 N001 N003 vcc N002 N004 sw out vcc unit_nand
+.ends ring8

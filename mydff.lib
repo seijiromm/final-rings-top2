@@ -1,0 +1,9 @@
+.subckt mydff CK D Q Qb vcc gnd
+XX1 gnd D N002 vcc CK N001 myinv_c
+XX2 gnd Q Qb vcc CK N001 myinv_c
+XX3 gnd N002 N003 vcc myinv
+XX4 gnd N003 N002 vcc N001 CK myinv_c
+XX5 gnd N003 Qb vcc N001 CK myinv_c
+XX6 gnd Qb Q vcc myinv
+XX7 gnd CK N001 vcc myinv
+.ends mydff

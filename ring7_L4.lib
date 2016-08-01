@@ -1,0 +1,10 @@
+.subckt ring7_l4 sw vcc out
+XX2 0 N001 N003 vcc myinv_l4
+XX3 0 N003 N004 vcc myinv_l4
+XX4 0 N004 N005 vcc myinv_l4
+XX6 0 N005 N006 vcc myinv_l4
+XX7 0 N006 N007 vcc myinv_l4
+XX8 0 N007 N002 vcc myinv_l4
+XX1 0 N002 N001 vcc sw myinv_l4_psw
+XX5 0 N001 out vcc myinv
+.ends ring7_l4

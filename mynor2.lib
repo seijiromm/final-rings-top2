@@ -1,0 +1,6 @@
+.subckt mynor2 A B gnd vdd C
+M1 C B gnd gnd nch l=2u w=6u
+M2 C A gnd gnd nch l=2u w=6u
+M3 C B N001 vdd pch l=2u w=18u
+M4 N001 A vdd vdd pch l=2u w=18u
+.ends mynor2

@@ -1,0 +1,6 @@
+.subckt mynand2 A B gnd vdd Z
+M1 Z A vdd vdd pch l=2u w=18u
+M2 Z B vdd vdd pch l=2u w=18u
+M5 Z A N001 gnd nch l=2u w=6u
+M6 N001 B gnd gnd nch l=2u w=6u
+.ends mynand2

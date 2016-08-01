@@ -1,0 +1,5 @@
+.subckt inverter Gnda In Vcc Out
+M1 Out In Gnda Gnda nch l=2u w=6u
+M2 Out In Vcc Vcc pch l=2u w=18u
+* .include "./models/mos_tt.lib"
+.ends inverter

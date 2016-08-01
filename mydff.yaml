@@ -1,0 +1,6 @@
+---
+grid_size: 0.0625
+cells:
+  myinv_c: circuits
+  myinv: circuits
+thick_wires: 

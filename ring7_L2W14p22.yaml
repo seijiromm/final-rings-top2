@@ -1,0 +1,6 @@
+---
+grid_size: 0.0625
+cells:
+  myinv_L2W14p22: circuits
+  myinv_L2W14p22_psw: circuits
+thick_wires: 

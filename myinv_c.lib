@@ -1,0 +1,6 @@
+.subckt myinv_c gnd in out vcc CK CKb
+M1 out CKb P001 gnd nch l=2u w=6u
+M2 P002 in vcc vcc pch l=2u w=18u
+M3 out CK P002 vcc pch l=2u w=18u
+M4 P001 in gnd gnd nch l=2u w=6u
+.ends myinv_c

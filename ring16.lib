@@ -1,0 +1,6 @@
+.subckt ring16 sw vcc out
+XX4 N002 N006 vcc N003 N007 vcc unit
+XX1 N001 N005 vcc N002 N006 sw out vcc unit_nand
+XX2 N003 N007 vcc N004 N008 vcc unit
+XX3 N004 N008 vcc N005 N001 vcc unit
+.ends ring16

@@ -1,0 +1,7 @@
+---
+grid_size: 0.0625
+cells:
+  mydff: circuits
+  nmos4: symbols
+  pmos4: symbols
+thick_wires: 

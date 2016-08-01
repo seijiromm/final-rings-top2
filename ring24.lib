@@ -1,0 +1,8 @@
+.subckt ring24 sw vcc out
+XX4 N002 N008 vcc N003 N009 vcc unit
+XX1 N001 N007 vcc N002 N008 sw out vcc unit_nand
+XX2 N003 N009 vcc N004 N010 vcc unit
+XX3 N004 N010 vcc N005 N011 vcc unit
+XX5 N005 N011 vcc N006 N012 vcc unit
+XX6 N006 N012 vcc N007 N001 vcc unit
+.ends ring24
